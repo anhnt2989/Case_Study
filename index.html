@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escaping tank</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<img src="tank.png" alt="tank" id="tank"/>
+<img src="saw.png" alt="saw" id="saw"/>
+<img src="mine.png" alt="mine" id="mine"/>
+<img src="GO.png" alt="GO" id="gameover"/>
+<img src="gate.png" alt="gate" id="gate"/>
+<canvas id="intro"></canvas>
+<canvas id="stage1"></canvas>
+<canvas id="stage2"></canvas>
+
+<fieldset id="sideBoard">
+    <h1>Escaping tank</h1>
+    <div id="bt">
+    <input type="button" value="Start" onclick="startGame();"/>
+    </div>
+    <p>Tips :</p>
+    - W to forward <br>
+    - S to reverse <br>
+    - A to head-left (no strafe) <br>
+    - D to head-right (no strafe) <br>
+    - K to shoot <br><br>
+    * Avoid mines and saw blades <br>
+    * Kill the boss to win <br>
+</fieldset>
+
+<body>
+<script src="core.js"></script>
+</body>
+</html>

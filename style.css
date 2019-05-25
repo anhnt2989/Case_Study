@@ -1,0 +1,30 @@
+canvas {
+    border: 2px;
+    border-style: double;
+    border-color: blue;
+    width: 1200px;
+    height: 700px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    background-image: url("background.png") ;
+    background-size: cover;
+}
+img {
+    position: absolute;
+    left: 1250px;
+    display: none;
+}
+fieldset {
+    position: absolute;
+    left: 1220px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: coral;
+}
+h1 {
+    text-align: center;
+}
+#bt {
+    text-align: center;
+}
