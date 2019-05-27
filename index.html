@@ -5,14 +5,16 @@
     <title>Escaping tank</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="image">
 <img src="tank.png" alt="tank" id="tank"/>
 <img src="saw.png" alt="saw" id="saw"/>
 <img src="mine.png" alt="mine" id="mine"/>
 <img src="GO.png" alt="GO" id="gameover"/>
 <img src="gate.png" alt="gate" id="gate"/>
-<canvas id="intro"></canvas>
+</div>
+
 <canvas id="stage1"></canvas>
-<canvas id="stage2"></canvas>
 
 <fieldset id="sideBoard">
     <h1>Escaping tank</h1>
@@ -27,9 +29,27 @@
     - K to shoot <br><br>
     * Avoid mines and saw blades <br>
     * Kill the boss to win <br>
+    * Try to pick bullets as many as possible
 </fieldset>
 
+<div class="life">
+    <p>Life :</p>
+    <img src="tank copy.png" alt="tank1" id="tank1"/>
+    <img src="tank copy.png" alt="tank2" id="tank2"/>
+    <img src="tank copy.png" alt="tank3" id="tank3"/>
+</div>
+<div class="loaded">
+    <p>Bullets loaded : </p>
+    <img src="bullet.png" alt="b1" id="b1">
+    <img src="bullet.png" alt="b2" id="b2">
+    <img src="bullet.png" alt="b3" id="b3">
+    <img src="bullet.png" alt="b4" id="b4">
+    <img src="bullet.png" alt="b5" id="b5">
+</div>
+<img src="bullet copy.png" alt="bc" id="bc"/>
+<!--<img src="RedDragon.png" alt="boss" id="boss"/>-->
 <body>
-<script src="core.js"></script>
+<script src="Stage1.js"></script>
+<script src="bullet.js"></script>
 </body>
 </html>

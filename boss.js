@@ -5,13 +5,7 @@ let Boss = function () {
       ctx = myGameArea.context;
       ctx.save();
       ctx.translate(this.x, this.y);
-      ctx.rotate(this.angle);
-      ctx.drawImage();
+      ctx.drawImage(bossimg, -bossimg.width/4 - this.width / 3, -bossimg.height/4 - this.height / 3);
       ctx.restore();
   };
-    this.newPos = function() {
-        this.angle += this.moveAngle * Math.PI / 180;
-        this.x += this.speed * Math.sin(this.angle);
-        this.y -= this.speed * Math.cos(this.angle);
-    }
 };

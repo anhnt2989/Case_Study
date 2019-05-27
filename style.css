@@ -10,12 +10,12 @@ canvas {
     background-image: url("background.png") ;
     background-size: cover;
 }
-img {
+.image {
     position: absolute;
     left: 1250px;
     display: none;
 }
-fieldset {
+#sideBoard {
     position: absolute;
     left: 1220px;
     border-radius: 20px;
@@ -27,4 +27,17 @@ h1 {
 }
 #bt {
     text-align: center;
+}
+.life {
+    text-align: center;
+    position: absolute;
+    left: 1270px;
+    top: 420px;
+    display: block;
+}
+.loaded {
+    position: absolute;
+    left: 1290px;
+    top: 520px;
+    display: block;
 }
